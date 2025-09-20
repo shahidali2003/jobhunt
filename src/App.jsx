@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Header from "./tempComponents/Header";
-import AddForm from "./tempComponents/AddForm";
-import FilterBar from "./Components/FilterBar";
-import Stats from "./Components/Stats";
-import ApplicationCard from "./Components/ApplicationCard";
+import Header from "./components/Header"
+import AddForm from "./components/AddForm";
+import FilterBar from "./components/FilterBar";
+import Stats from "./components/Stats";
+import ApplicationCard from "./components/ApplicationCard";
 
 const App = () => {
   const [items, setItems] = useState(
